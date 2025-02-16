@@ -31,3 +31,16 @@
     text-align: center;
     margin-bottom: 1rem;
 }
+
+@media (max-width: 800px) {
+    .footer-icons img {
+        width: 25px;
+    }
+
+    .footer ul {
+        padding-left: 10%;
+        grid-template-columns: auto auto;
+        gap: 8px;
+        font-size: 14px;
+    }
+}
